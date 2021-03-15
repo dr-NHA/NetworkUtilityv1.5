@@ -1,0 +1,10 @@
+C:\Users\there\source\repos\NetworkTool\NetworkTool\bin\Debug\NetworkTool.exe.config
+C:\Users\there\source\repos\NetworkTool\NetworkTool\bin\Debug\NetworkTool.exe
+C:\Users\there\source\repos\NetworkTool\NetworkTool\bin\Debug\NetworkTool.pdb
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.csprojAssemblyReference.cache
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.M_Form.resources
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.Properties.Resources.resources
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.csproj.GenerateResource.cache
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.csproj.CoreCompileInputs.cache
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.exe
+C:\Users\there\source\repos\NetworkTool\NetworkTool\obj\Debug\NetworkTool.pdb
