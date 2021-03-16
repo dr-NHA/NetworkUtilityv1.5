@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -82,7 +82,14 @@ List<string> Gret=new List<string>();
 foreach(string Possi in NetRegLoc.GetSubKeyNames()){
 if(Possi!="Descriptions"){
 RegistryKey TempNetKei= NetRegLoc.OpenSubKey(Possi+"\\Connection", true);
-string TempNetName= (string)TempNetKei.GetValue("Name", true);
+string TempNetName="";
+string Tipe= TempNetKei.GetValue("Name", true).GetType().ToString().Replace("System.","");
+if (Tipe== "Boolean"){  
+ TempNetName= ((bool)TempNetKei.GetValue("Name", true)).ToString();
+}else if(Tipe=="String"){
+ TempNetName= (string)TempNetKei.GetValue("Name", true);
+}
+//MessageBox.Show(TempNetKei.GetValue("Name", true).GetType().ToString());
 if(TempNetKei.GetValueNames().Contains("PnPInstanceId")){
 
 if(TempNetKei.GetValueNames().Contains("MediaSubType")){
